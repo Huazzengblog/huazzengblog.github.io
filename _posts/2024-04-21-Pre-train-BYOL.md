@@ -31,7 +31,7 @@ tags: [AI,paper-learing,CV,pre-train  ]  # TAG names should always be lowercase
 #### 训练目标函数
 BYOL的训练目标是最小化预测器输出和目标网络的latent表示之间的差异。我们使用MSE来衡量两个向量之间的相似度，然后通过最小化差异来训练模型。
 Lossfuc 如下
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/lossfuc.webp)
+![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/BYOLlossfuc.webp)
 
 #### 评估
 * * 微调后，适应下游任务(例如在不同数据集上的分类任务)
