@@ -1,8 +1,8 @@
 ---
 title: Image pre-train
 date: 2024-04-21 12:00:00 +/-TTTT
-categories: [AI,paper-learing]
-tags: [AI,paper-learing,CV  ]  # TAG names should always be lowercase
+categories: [AI,CV]
+tags: [AI,paper-learing,CV ,pre-train ]  # TAG names should always be lowercase
 ---
 # Image Pre-train Survey
 [TOC]

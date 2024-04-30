@@ -1,7 +1,7 @@
 ---
 title: graph network
 date: 2024-04-21 12:00:00 +/-TTTT
-categories: [AI,paper-learing]
+categories: [AI,model]
 tags: [AI,paper-learing,graph  ]  # TAG names should always be lowercase
 ---
 

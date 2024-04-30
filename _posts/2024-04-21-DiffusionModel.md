@@ -1,7 +1,7 @@
 ---
 title: diffusion model
 date: 2024-04-21 12:00:00 +/-TTTT
-categories: [AI,paper-learing]
+categories: [AI,CV]
 tags: [AI,paper-learing,CV  ]  # TAG names should always be lowercase
 ---
 
