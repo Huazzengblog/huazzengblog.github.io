@@ -6,3 +6,4 @@ tags: [AI,CV ]  # TAG names should always be lowercase
 ---
 
 # diffusion model
+## DDPM DDIM
