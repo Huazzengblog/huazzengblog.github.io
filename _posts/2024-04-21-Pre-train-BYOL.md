@@ -26,12 +26,12 @@ tags: [AI,paper-learing,CV,pre-train  ]  # TAG names should always be lowercase
 * BYOL模型由一个在线网络（online network）、一个目标网络（target network）和一个预测器（predictor）组成。
 * 在线网络使用梯度回传，目标网络使用动量更新，它们都是深度卷积神经网络。
 * 预测器是一个小型的MLP网络，结构如下图右侧，用于预测latent表示。
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/BYOL.webp)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/BYOL.webp)
 
 #### 训练目标函数
 BYOL的训练目标是最小化预测器输出和目标网络的latent表示之间的差异。我们使用MSE来衡量两个向量之间的相似度，然后通过最小化差异来训练模型。
 Lossfuc 如下
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/BYOLlossfuc.webp)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/BYOLlossfuc.webp)
 
 #### 评估
 * * 微调后，适应下游任务(例如在不同数据集上的分类任务)

@@ -17,9 +17,9 @@ tags: [OS ]  # TAG names should always be lowercase
 
 ### Resource-Allocation Graph
 通过绘制持有 请求的图，通过查看是否存在环来判断死锁
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/deadlock-graph-a.png)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/deadlock-graph-a.png)
 
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/deadlock-graph-a.png)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/deadlock-graph-a.png)
 * If graph contains no cycles  no deadlock
 * If graph contains a cycle 
   * if only one instance per resource type, then deadlock
