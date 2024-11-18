@@ -1,6 +1,6 @@
 ---
 title: license scan
-date: 2024-01-01 12:00:00 +/-TTTT
+date: 2024-11-17 12:00:00 +/-TTTT
 categories: [supply_chain,OSSlicense]
 tags: [tool,OSSlicense]
 ---
