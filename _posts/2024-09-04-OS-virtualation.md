@@ -26,7 +26,7 @@ tags: [OS]  # TAG names should always be lowercase
 
 > Another goal will be to provide protection between applications, aswell as between the OS and applications.
 
-## virtualation
+## virtualation-cpu
 ### Abstraction Of Process
 #### Intro
 * def of process
@@ -61,10 +61,10 @@ newly-created process, and thus the program begins its execution.
  of pieces of code and data works, you’ll have to understand more about the machinery of paging and swapping
 
 #### Process States
- ![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/OSprocessState.png)
+ ![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/OSprocessState.png)
 
 #### Data Struction
-
+* process control block PCB
 ### Mechanism: Limited Direct Execution
 #### Intro
 * challenge in time sharing
@@ -78,11 +78,7 @@ newly-created process, and thus the program begins its execution.
   * 如何监管进程
   * 如何控制切换进程
   > The fifirst is simple: if we just run a
- program, how can the OS make sure the program doesn’t do anything
- that we don’t want it to do, while still running it effificiently? The second:
- when we are running a process, how does the operating system stop it
- from running and switch to another process, thus implementing the time
- sharing we require to virtualize the CPU?
+ program, how can the OS make sure the program doesn’t do anything that we don’t want it to do, while still running it effificiently? The second: then we are running a process, how does the operating system stop it from running and switch to another process, thus implementing the time sharing we require to virtualize the CPU?
 
 #### Problem #1: Restricted Operations
 * 引入kernel mode 和user mode
@@ -190,13 +186,65 @@ To whet your appetite 激发你的食欲
 
 ### Scheduling: The Multi-Level Feedback Queue
 
+
+
+## virtulation-memory
+### Abstract address space
+
+### address translation
+
+### segamentation
+
+### free space manage
+
+### paging
+
+### TLB
+地址翻译的buffer
+### smaller page size
+
+### swapping 策略
+
+
 ## Concurrency
+### concurrency
+
+### lock
+
+### thread
+
+### deadlock
+见 OS-deadlock
+
+### condition variable
+
+见 OS-condition-variable
 
 
+### semaphore
+
+**解决同步互斥问题**
 
 
 ## persistent
 
+### io设备
 
+### 磁盘
+
+
+### 文件结构
+
+
+### 文件链接
+
+
+
+## final review
+**信号量**
+
+**缓存区读写io时间计算**
+
+**hard link soft link**
 
 
