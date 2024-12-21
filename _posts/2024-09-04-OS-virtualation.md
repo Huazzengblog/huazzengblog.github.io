@@ -188,6 +188,9 @@ To whet your appetite 激发你的食欲
 
 
 
+### 按比例份额调度
+* 彩票系统
+
 ## virtulation-memory
 ### Abstract address space
 
@@ -196,14 +199,26 @@ To whet your appetite 激发你的食欲
 ### segamentation
 
 ### free space manage
+找空间的方式
+
+* 伙伴系统
+* 分离空间列表
 
 ### paging
 
+
 ### TLB
 地址翻译的buffer
+* thrashing
 ### smaller page size
-
+* bigger page
+* multi-level
+* 段页式
+* inverted page
 ### swapping 策略
+* fifo
+* lru
+* 
 
 
 ## Concurrency
@@ -229,16 +244,26 @@ To whet your appetite 激发你的食欲
 ## persistent
 
 ### io设备
+* 使用中断来控制
+* dma ： 将与磁盘的交互给到dma设备 cpu无需处理这个交互
 
 ### 磁盘
 
+* io时间 = 寻道时间+旋转+传输
+* 磁盘调度算法
+  * fifo
+  * sstf
+  * scan
+  * spft
 
 ### 文件结构
 
+* inode计算
 
 ### 文件链接
 
-
+* 软链接
+* 硬链接
 
 ## final review
 **信号量**
