@@ -218,7 +218,8 @@ To whet your appetite 激发你的食欲
 ### swapping 策略
 * fifo
 * lru
-* 
+* 近似lrn
+  * clock
 
 
 ## Concurrency
@@ -259,6 +260,10 @@ To whet your appetite 激发你的食欲
 ### 文件结构
 
 * inode计算
+
+### 文件系统 
+
+#### 
 
 ### 文件链接
 
