@@ -10,6 +10,6 @@ order: 1
 * ...
 ---
 **for future**
-![alt text](https://raw.githubusercontent.com/huazZeng/huazZeng.github.io/main/_posts/img/back.jpg)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/back.jpg)
 
 
