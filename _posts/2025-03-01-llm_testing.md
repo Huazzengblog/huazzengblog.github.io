@@ -53,4 +53,4 @@ tags: [llm,testing]
 
 
 
-### limit
+## Do LLMs generate test oracles that capture the  actual or the expected program behaviour?
