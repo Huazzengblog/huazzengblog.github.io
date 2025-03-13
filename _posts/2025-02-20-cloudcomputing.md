@@ -1,5 +1,5 @@
 ---
-title: 云计算
+title: cloud computing
 date: 2025-01-09 00:45:00 +/-TTTT
 categories: 25spring
 tags: [25spring]
