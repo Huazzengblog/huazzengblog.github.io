@@ -95,11 +95,20 @@ tags: [llm,testing]
 
 ### Test Oracle Automation in the era of LLMs
 
+* 	潜力
+	•	包括超越测试断言的Oracle，如合约或变形关系。
+* 挑战
+	•	通过提示工程 (Prompt Engineering) 使用LLMs
+	•	通过预训练或微调使用LLMs
+*	主要威胁
+	•	由LLMs生成不同类型的Oracle带来的Oracle缺陷
+	•	与数据泄露相关的隐私问题
+
 
 ### Automated Unit Test Improvement using Large Language Models at Meta
 > We believe this is the first report on industrial scale deployment of LLM-generated code backed by such assurances of code improvement.
 
 
 ### Are LLMs Ready for Practical  Adoption for Assertion Generation?
-
-
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm1.png) 
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm2.png.png)
