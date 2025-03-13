@@ -54,3 +54,14 @@ tags: [llm,testing]
 
 
 ## Do LLMs generate test oracles that capture the  actual or the expected program behaviour?
+
+
+## Test Oracle Automation in the era of LLMs
+
+
+## Automated Unit Test Improvement using Large Language Models at Meta
+
+## Are LLMs Ready for Practical  Adoption for Assertion Generation?
+
+
+## LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities
