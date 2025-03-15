@@ -1,5 +1,5 @@
 ---
-title: 大数据平台技术
+title: big data platform
 date: 2025-02-25 00:45:00 +/-TTTT
 categories: 25spring
 tags: [25spring]
