@@ -111,4 +111,9 @@ tags: [llm,testing]
 
 ### Are LLMs Ready for Practical  Adoption for Assertion Generation?
 ![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm1.png) 
-![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm2.png.png)
+![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm2.png)
+
+
+
+* mutation 
+* 差分分析
