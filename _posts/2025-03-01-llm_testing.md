@@ -117,3 +117,12 @@ tags: [llm,testing]
 
 * mutation 
 * 差分分析
+* 3.28
+  * think1
+    * p -- > 语义理解
+    * semetic -- > test set
+    * test set -- > p
+
+  * 如何捕获预期的程序行为？
+  * 捕获程序在上下文程序中的语义？
+    * masked掉部分代码
