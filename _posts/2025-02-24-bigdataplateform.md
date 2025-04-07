@@ -141,7 +141,8 @@ tags: [25spring]
 #### 瓶颈
 * 计算量过大，mapping后的结果需要存储在本地，需要再shuffling和reducing阶段进行磁盘io
 * mapping中的最慢节点
-
+#### 代码设计原则
+* 尽可能少传数据
 
 ### k-means
 * limits
