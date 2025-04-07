@@ -126,6 +126,24 @@ tags: [25spring]
 | --- | --- |
 | b+树有avl-tree的影子 | lsm-tree |
 
+### bigtable
+
 ## 大数据计算引擎
 
 * emacs
+
+### mapreduce
+#### 流程
+* splitting 切分数据块 ， 基本为文件系统的块大小
+* mapping 分别处理数据块
+* shuffling 根据键值对整理mapping的输出，将相同key的数据分发到同一个reducer上
+* reducing 统计最后结果
+#### 瓶颈
+* 计算量过大，mapping后的结果需要存储在本地，需要再shuffling和reducing阶段进行磁盘io
+* mapping中的最慢节点
+
+
+### k-means
+* limits
+  * k是提前指定的
+  * 
