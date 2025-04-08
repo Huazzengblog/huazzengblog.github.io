@@ -40,3 +40,7 @@ tags: [llm,security]
 
 #### data strategies
 
+
+
+## software perspective to mls
+
