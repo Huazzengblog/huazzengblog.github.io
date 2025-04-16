@@ -147,4 +147,8 @@ tags: [25spring]
 ### k-means
 * limits
   * k是提前指定的
-  * 
+
+
+### data stream manegement system
+* 流形数据的处理
+* 
