@@ -113,8 +113,19 @@ tags: [llm,testing]
 ![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm1.png) 
 ![alt text](https://raw.githubusercontent.com/huazZengblog/huazZengblog.github.io/main/_posts/img/llm_testing/assertion-llm2.png)
 
+### FANDANGO: Evolving Language-Based Testing
+* 启发式搜索：遗传算法
+* language learner : 
+  * 获取grammar 和 constraints 
+* 通过grammar 和 constraints  来生产初始的测试用例
+* 设置fitness function ：
+  $ f(T) = \sum_{c \in constraints} w_c * s_c(T) $
+> where:  • wc is the weight assigned to constraint Y, refecting its importance. • 
+> Sc  in [0, 1] is the satisfaction score of tree T with respect to constraint c.
 
 
+
+## point
 * mutation 
 * 差分分析
 * 3.28
