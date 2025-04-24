@@ -454,12 +454,25 @@ Unix系统通常采用以下方式处理口令：
   * Alice Challenge Bob
 * Bob -> Alice: EK(ra, rb)
 ##### 基于基于对称密钥的MAC
+
+###### 单向认证
+
+* Bob -> Alice: rb
+* Alice -> Bob: ra, hK(ra, rb, B)
+###### 双向认证
 * Bob -> Alice: rb
 * Alice -> Bob: ra, hK(ra, rb, B)
 * Bob -> Alice: hK(ra, rb, A)
 
 
 ##### 基于数字签名
+###### 单向认证
+* Bob -> Alice: rB（随机数）
+* Alice -> Bob: certA, rA, B, SA(rA, rB, B)
+###### 双向认证
+* Bob -> Alice: rB
+* Alice -> Bob: certA, rA, B, SA(rA,rB,B)
+* Bob -> Alice: certB, A, SB(rA,rB,A)
 
 
 #### 6. Needham-Schroeder协议
