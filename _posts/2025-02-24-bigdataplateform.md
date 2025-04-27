@@ -287,7 +287,7 @@ tags: [25spring]
 💡 所以 Transformation 是 “计划”，Action 是 “执行”。
 
 
-## 🎯 五、举个简单的例子：
+###### 🎯 五、举个简单的例子：
 
 ```python
 rdd = sc.textFile("data.txt")          # 读取文件，创建 RDD（初始 RDD）
@@ -301,7 +301,7 @@ result = rdd3.count()                  # Action：触发执行
 
 ---
 
-## 🧠 总结一句话：
+###### 🧠 一句话：
 
 > **RDD 是 Spark 的数据基石；Transformation 是对数据的惰性转换；Action 是触发实际计算的“执行器”。理解它们的关系是玩转 Spark 的关键。**
 
@@ -370,3 +370,5 @@ Yarn是Hadoop生态系统中的一个重要组件，主要用于集群资源的�
   - **选举机制**：在主从架构中，用于选出主节点。
 - 常见于 Hadoop、Kafka、HBase 等大数据组件中，用于协调和维护系统的稳定运行。
 
+## paper reading
+* pig latin is a language that is used to express data processing tasks in a way that is easy to understand and easy to translate into a sequence of map and reduce operations.
