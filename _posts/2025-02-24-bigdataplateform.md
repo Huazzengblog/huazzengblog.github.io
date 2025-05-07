@@ -372,3 +372,6 @@ Yarn是Hadoop生态系统中的一个重要组件，主要用于集群资源的�
 
 ## paper reading
 * pig latin is a language that is used to express data processing tasks in a way that is easy to understand and easy to translate into a sequence of map and reduce operations.
+* naiad is a distributed data processing system that uses a fault-tolerant, low-latency, and scalable approach to process large amounts of data in parallel.
+* scaling distributed machine learning with parmeter servers
+## NoSQL
