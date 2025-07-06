@@ -5,5 +5,7 @@ categories: [AI,model]
 tags: [AI, Muti-Model]  # TAG names should always be lowercase
 ---
 # Multi-Modal
-## CLIP
-## Diffusion Model
+## VLA
+### CLIP
+### BLIP
+### 

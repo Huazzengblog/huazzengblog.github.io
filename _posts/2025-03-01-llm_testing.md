@@ -140,4 +140,65 @@ tags: [llm,testing]
 
 
 ### dataset
-* 
+
+## paper-reading-0606
+### paper-related
+
+|  Paper Title                                                                                                    | finished |
+| :------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| Adversarial Reasoning for Repair Based on Inferred Program Intent                                                          | 1         |
+| Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks                      | 1        |
+| OSVBench: Benchmarking LLMs on Specification Generation Tasks for Operating System Verification                            | 1         |
+| SpecGen: Automated Generation of Formal Program Specifications via Large Language Models                                   | 1         |
+| SpecRover: Code Intent Extraction via LLMs                                                                                 | 1         |
+| On Learning Meaningful Assert Statements for Unit Test Cases                                                               | 0         |
+| FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs                                                   | 0 |
+| How Accurately Do Large Language Models Understand Code?                                                                   | 1 |
+| How Effective are Large Language Models in Generating Software Specifications?                                             | 1 |
+| Intention is All You Need: Refining Your Code from Your Intention                                                          | 1 |
+| Seeking Specifications: The Case for Neuro-Symbolic Specification Synthesis                                                | 0 |
+| Towards the LLM-Based Generation of Formal Specifications from Natural-Language Contracts: Early Experiments with Symboleo | 0 |
+｜Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference｜ 1 ｜
+
+### paper-detail
+* SpecGen: Automated Generation of Formal Program Specifications via Large Language Models
+![alt text](<截屏2025-06-06 09.11.38_副本.png>)
+* Repair
+  * SpecRover: Code Intent Extraction via LLMs
+    * https://arxiv.org/abs/2408.02232
+    * ![alt text](<截屏2025-06-06 10.15.48.png>)
+  * ADVERINTENT-AGENT
+    * https://arxiv.org/pdf/2505.13008
+    ![alt text](<截屏2025-06-06 09.11.38_副本-1.png>)
+* benchmark
+  * Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks
+  * Can LLMs Reason About Program Semantics?  A Comprehensive Evaluation of LLMs on Formal Specification Inference
+    * FormalBench
+  * atlas 
+    * https://sites.google.com/view/atlas-nmt/home
+    * https://arxiv.org/pdf/2002.05800
+  * OSVBench: Benchmarking LLMs on Specification Generation Tasks for Operating System Verification
+    ```json
+    [
+    {
+        "syscall": "syscall name",
+        "declaration": "syscall declaration",
+        "description": "\n[Functional Description]: ... ",
+        "code": "[Code Implementation]: ... ",
+        "bug_type": "bug type",
+        "bug_num": "bug number"
+    },
+    ...
+    ]
+    ```
+
+* code-understanding
+  * How Accurately Do Large Language Models Understand Code
+    ![alt text](<截屏2025-06-06 10.38.40.png>)
+  * How Effective are Large Language Models in Generating Software Specifications?
+    > Therefore, we manually inspect the generated completions for Jdoctor-data and report both the raw accuracy of perfect match and final accuracy after manual corrections.
+
+
+* 通过上下文推断隐含寓意
+    * 验证自然语言准确性
+    * 验证代码spec的工具
