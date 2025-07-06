@@ -162,14 +162,11 @@ tags: [llm,testing]
 
 ### paper-detail
 * SpecGen: Automated Generation of Formal Program Specifications via Large Language Models
-![alt text](<截屏2025-06-06 09.11.38_副本.png>)
 * Repair
   * SpecRover: Code Intent Extraction via LLMs
     * https://arxiv.org/abs/2408.02232
-    * ![alt text](<截屏2025-06-06 10.15.48.png>)
   * ADVERINTENT-AGENT
     * https://arxiv.org/pdf/2505.13008
-    ![alt text](<截屏2025-06-06 09.11.38_副本-1.png>)
 * benchmark
   * Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks
   * Can LLMs Reason About Program Semantics?  A Comprehensive Evaluation of LLMs on Formal Specification Inference
@@ -194,7 +191,6 @@ tags: [llm,testing]
 
 * code-understanding
   * How Accurately Do Large Language Models Understand Code
-    ![alt text](<截屏2025-06-06 10.38.40.png>)
   * How Effective are Large Language Models in Generating Software Specifications?
     > Therefore, we manually inspect the generated completions for Jdoctor-data and report both the raw accuracy of perfect match and final accuracy after manual corrections.
 
