@@ -7,4 +7,7 @@ tags: [AI,system ]  # TAG names should always be lowercase
 # 推理加速
 ## Flash Attention
 * FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness ：https://arxiv.org/pdf/2205.14135
-* 
+
+
+## Sglang & vllm
+https://huazzengblog.github.io/posts/SGLang&vLLM/
