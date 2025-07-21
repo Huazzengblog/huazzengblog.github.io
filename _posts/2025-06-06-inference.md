@@ -5,5 +5,6 @@ categories: [AI,system]
 tags: [AI,system ]  # TAG names should always be lowercase
 ---
 # 推理加速
-
-**好久没学自己想学的东西了，开几个坑，预计在9月前完成**
+## Flash Attention
+* FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness ：https://arxiv.org/pdf/2205.14135
+* 
