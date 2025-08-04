@@ -10,4 +10,4 @@ tags: [AI,system ]  # TAG names should always be lowercase
 
 
 ## Sglang & vllm
-https://huazzengblog.github.io/posts/SGLang&vLLM/
+![z's blog of sglang and vllm](https://huazzengblog.github.io/posts/SGLang&vLLM/)
