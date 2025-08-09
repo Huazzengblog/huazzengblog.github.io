@@ -6,9 +6,9 @@ tags: [AI,LLM,Multi-Modal ]
 ---
 Talk about the VLM reslution including dynamic resolution,fixed resolution , resize category ...
 
-# Vision Encoder 
+# Vision Encoder **
 ## OpenSource
-
+### Qwen VL
 ## ClosedSource
 
 
