@@ -7,5 +7,5 @@ tags: [AI,system ]  # TAG names should always be lowercase
 # Training Speed
 
 ## deepspeed&megatron
-![z's blog of deepspeed&megatron](https://huazzengblog.github.io/posts/deepspeed&megatron/)
+[z's blog of deepspeed&megatron](https://huazzengblog.github.io/posts/deepspeed&megatron/)
 
